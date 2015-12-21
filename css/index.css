@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+body {
+    background-color: #DDD9D9;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
+    color: #797B7F;
+    font-size: 20px;
+}
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#top {
+    width: 960px;
+    height: 405px;
+    background-image: url(../img/bg_top.png);
+}
+h1 {
+    width: 960px;
+}
+h1 img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+nav {
+    width: 960px;
+    background-color: #BDCCD0;
+}
+nav ul {
+    width: 690px;
+    height: 75px;
+    margin: 0 auto;
+}
+nav ul li {
+    float: left;
+    margin: 25px 0px;
+    margin-right: 20px;
+}
+nav ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.clearTxt{
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+nav ul li a[href="#about"] {
+    background-image: url(../img/nav01.png);
+    width: 111px;
+    height: 25px;
+}
+nav ul li a[href="#news"] {
+    background-image: url(../img/nav02.png);
+    width: 90px;
+    height: 25px;
+}
+nav ul li a[href="#timeTable"] {
+    background-image: url(../img/nav03.png);
+    width: 178px;
+    height: 25px;
+}
+nav ul li a[href="#bands"] {
+    background-image: url(../img/nav04.png);
+    width: 103px;
+    height: 25px;
+}
+nav ul li a[href="#access"] {
+    background-image: url(../img/nav05.png);
+    width: 105px;
+    height: 25px;
+}
+nav ul li a[href="#about"]:hover {
+    background-image: url(../img/nav01_on.png);
+}
+nav ul li a[href="#news"]:hover {
+    background-image: url(../img/nav02_on.png);
+}
+nav ul li a[href="#timeTable"]:hover {
+    background-image: url(../img/nav03_on.png);
+}
+nav ul li a[href="#bands"]:hover {
+    background-image: url(../img/nav04_on.png);
+}
+nav ul li a[href="#access"]:hover {
+    background-image: url(../img/nav05_on.png);
+}
+
+#contents {
+    width: 960px;
+    padding-bottom: 100px;
+    /* Rectangle 2: */
+    background-image: -webkit-linear-gradient(#D8DEE6 0%, #8DAFD6 100%);
+    background-image: -o-linear-gradient(#D8DEE6 0%, #8DAFD6 100%);
+    background-image: linear-gradient(#D8DEE6 0%, #8DAFD6 100%);
+}
+#contents section {
+    padding-top: 60px;
+}
+#contents h2 {
+    margin-bottom: 40px;
+}
+#contents p {
+    width: 630px;
+    margin: 0 auto;
+}
+#news dl {
+    width: 400px;
+    margin: 0 auto;
+}
+#news dl dt,
+#news dl dd {
+    float: left;
+    width: 200px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#timeTable ol {
+    width: 100px;
+    margin: 0 auto;
+}
+#timeTable ol li {
+    margin-bottom: 15px;
+    text-align: left;
+    list-style-type: decimal;
+}
+
+#bands .bandBox {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+#bands .leftBox,
+#bands .rightBox {
+    float: left;
+    width: 200px;
+}
+#bands .bandBox img {
+    display: block;
+    margin: 0 auto;
+}
+#bands .bandBox dl dt {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#access p {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#access #map {
+    display: block;
+    margin: 0 auto;
+}
