@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+@media screen and (min-width:980px) {
+    /*　画面サイズが980pxからはここを読み込む　*/
+    h1 img {
+        width: 50%;
+        padding-top: 100px;
+    }
+    h1:after {
+        width: 80px;
+        margin-top: 100px;
+        background-size: contain;
+    }
+    nav {
+        height: 75px;
+    }
+    nav .btn {
+        display: none;
+    }
+    nav ul {
+        display: block;
+    }
+    nav ul li {
+        width: 25%;
+        float: left;
+    }
+    nav ul li a {
+        height: 75px;
+        line-height: 75px;
+        font-size: 1rem;
+    }
+    
+    #contents h2 {
+        font-size: 1.5rem;
+    }
+    #contents h2:after {
+        height: 4px;
+        width: 100%;
+    }
+    #contents p {
+        font-size: 1rem;
+    }
+    #contents section {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    #contents #contact {
+        padding-bottom: 300px;
+    }
+    
+    #access #map_canvas {
+        margin: 0 auto;
+        width: 600px;
+        height: 400px;
+    }
+    #contact .btn:before {
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+    }
+    #contact .btn{
+        margin-top: 20px;
+        width: 250px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 1.5rem;
+}
+    #contact .btn a {
+        width: 100%;
+        height: 100%;
+    }
+}

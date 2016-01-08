@@ -36,7 +36,10 @@ $(function(){
         var position = target.offset().top;
         // スムーススクロール
         $('body,html').animate({scrollTop:position}, speed, 'swing');
-        do_accordion();
+        //アコーディオンを閉じる
+        if(is_open){
+            do_accordion();
+        }
       return false;
     });
 });
