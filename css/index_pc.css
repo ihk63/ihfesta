@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (min-width:1080px) {
+@media screen and (min-width:640px) {
     /*　画面サイズが1080pxからはここを読み込む　*/
     h1 img {
         width: 50%;
@@ -29,16 +29,23 @@
         line-height: 75px;
         font-size: 1rem;
     }
+    nav ul li a:hover {
+        background-color: #3F3F3F;
+    }
     
-    #contents h2 {
+    #top p {
+        margin-top: -120px;
         font-size: 1.5rem;
+    }
+    #contents h2 {
+        font-size: 2rem;
     }
     #contents h2:after {
         height: 4px;
         width: 100%;
     }
     #contents p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     #contents section {
         padding-top: 10px;

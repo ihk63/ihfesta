@@ -5,7 +5,7 @@ body {
     color: #464646;
     font-size: 62.5%;
     line-height: 1.5;
-    background-color: #D6E0EC;
+    background-color: #0E0E0E;
 }
 a {
     color: #464646;
@@ -28,32 +28,39 @@ a {
 #top {
     width: 100%;
 }
+#top p {
+    text-align: center;
+    margin-top: -140px;
+    font-size: 1rem;
+    color: #FFF;
+}
 h1 {
     z-index: 100;
 }
 h1 img {
     display: block;
     width: 80%;
-    padding-top: 500px;
+    padding-top: 100px;
     margin: auto;
 }
 h1:after {
     content: "";
     display: block;
-    width: 173px;
-    height: 94px;
+    width: 86px;
+    height: 47px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 130px;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 h2 {
     width: 100%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 nav {
@@ -66,35 +73,34 @@ nav {
 }
 nav .btn{
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     margin: 0 auto;
+    padding: 12.5px 0px;
     background-image: url(../img/nav.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 nav ul {
     display: none;
     width: 100%;
 }
 nav ul li {
-    line-height: 200px;
+    line-height: 100px;
 }
 nav ul li a {
     display: block;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 3.5rem;
+    font-size: 1.7rem;
     color: #fff;
-}
-
-#top {
-    padding-bottom: 350px;
 }
 
 #contents {
     background: rgba(255,255,255, 0.8);
+    margin-top: 400px;
 }
 
 #contents section {
@@ -110,7 +116,7 @@ nav ul li a {
 #contents h2:after {
     content: "";
     display: block;
-    height: 8px;
+    height: 4px;
     width: 100%;
 }
 #about h2:after {
@@ -134,39 +140,34 @@ nav ul li a {
     text-align:center;
 }
 
-#access p {
-    margin-bottom: 30px;
-}
-#map_canvas {
-    width: 100%;
-    height: 700px;
-}
 #access #map_canvas {
     display: block;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
 }
 
 #contents section#contact {
-    padding-bottom: 600px;
+    padding-bottom: 300px;
 }
 #contact .btn:before {
     float: left;
     content: "";
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 70px;
+    height: 70px;
     background-image: url(../img/TwitterLogo_white.png);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 #contact .btn{
     display: block;
-    margin-top: 100px;
-    width: 55%;
-    height: 150px;
-    line-height: 150px;
-    font-size: 4rem;
+    margin-top: 20px;
+    width: 60%;
+    height: 70px;
+    line-height: 75px;
+    font-size: 1.4rem;
     margin: 0 auto;
     background-color: #2F2F2F;
     text-align: center;
