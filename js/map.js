@@ -7,17 +7,9 @@ function initialize() {
         mapTypeId: google.maps.MapTypeId.ROADMAP/*表示タイプの指定*/
     };
     var map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
-    /*アイコン設定▼*/
-    var icon = new google.maps.MarkerImage('../img/map_icon.png',
-        new google.maps.Size(80,124),/*アイコンサイズ設定*/
-        new google.maps.Point(0,0)/*アイコン位置設定*/
-    );
-    var markerOptions = {
+    
+    var marker = new google.maps.Marker({
         position: latlng,
-        map: map,
-        icon: icon,
-        title: 'MOERADO'
-    };
-    var marker = new google.maps.Marker(markerOptions);
-　   /*アイコン設定ここまで▲*/
+        map: map
+    });
 }
