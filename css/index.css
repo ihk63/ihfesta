@@ -101,7 +101,8 @@ nav ul li a {
     width: 100%;
     max-width: 980px;
     margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 #contents h2 {
     margin-bottom: 40px;
