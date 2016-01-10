@@ -17,7 +17,7 @@ a {
     height: 100%;
     position: fixed;
     z-index: -1;
-    bottom: 40px;
+    bottom: 50px;
     
     background-image: url(../img/back.png);
     background-position: center bottom;
@@ -76,7 +76,7 @@ nav .btn{
     width: 30px;
     height: 30px;
     margin: 0 auto;
-    padding: 5px 0px;
+    padding: 10px 0px;
     background-image: url(../img/nav.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -87,7 +87,7 @@ nav ul {
     width: 100%;
 }
 nav ul li {
-    line-height: 100px;
+    line-height: 70px;
 }
 nav ul li a {
     display: block;
