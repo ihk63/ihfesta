@@ -17,7 +17,7 @@ a {
     height: 100%;
     position: fixed;
     z-index: -1;
-    bottom: 50px;
+    bottom: 60px;
     
     background-image: url(../img/back.png);
     background-position: center bottom;
@@ -73,8 +73,8 @@ nav {
 }
 nav .btn{
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 0 auto;
     padding: 10px 0px;
     background-image: url(../img/nav.png);
@@ -94,7 +94,7 @@ nav ul li a {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: #fff;
 }
 
