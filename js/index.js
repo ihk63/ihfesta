@@ -1,5 +1,5 @@
 $(function(){
-    
+
     var is_open = false;
     var $nav = $('nav');
     var $nav_ul = $('nav ul');
@@ -23,7 +23,7 @@ $(function(){
         }
     };
     $('nav .btn').on('click', do_accordion);
-    
+
     // #で始まるアンカーをクリックした場合に処理
     $('a[href^=#]').on('click', function(){
         // スクロールの速度
@@ -41,5 +41,9 @@ $(function(){
             do_accordion();
         }
       return false;
+    });
+
+    $('#bands dt').on('click', function() {
+            $(this).parent().children('dd').slideToggle();
     });
 });

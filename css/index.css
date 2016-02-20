@@ -2,6 +2,7 @@
 
 body {
     font-family: Helvetica , "游ゴシック" , "Yu Gothic" , sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     color: #464646;
     font-size: 62.5%;
     line-height: 1.5;
@@ -18,7 +19,7 @@ a {
     position: fixed;
     z-index: -1;
     bottom: 60px;
-    
+
     background-image: url(../img/back.png);
     background-position: center bottom;
     background-repeat: repeat-x;
@@ -30,7 +31,7 @@ a {
 }
 #top p {
     text-align: center;
-    margin-top: -140px;
+    margin-top: -130px;
     font-size: 1rem;
     color: #FFF;
 }
@@ -49,7 +50,7 @@ h1:after {
     width: 86px;
     height: 47px;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 140px;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -58,12 +59,14 @@ h2 {
     width: 100%;
     text-align: center;
     font-size: 2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 p {
     font-size: 1.3rem;
 }
 
 nav {
+    font-family: 'Open Sans Condensed', sans-serif;
     width: 100%;
     position: fixed;
     bottom: 0px;
@@ -140,12 +143,49 @@ nav ul li a {
     text-align:center;
 }
 
+#bands {
+    font-size: 1rem;
+}
+#bands dl:first-of-type {
+    border-top: 2px solid rgba(30,30,30,0.4);
+}
+#bands dl {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 3;
+}
+#bands dt {
+    color: #fff;
+    background: linear-gradient(to right,  rgba(30,30,30,0.4) 0%, rgba(30,30,30,0.6) 50%, rgba(30,30,30,0.4) 100%);
+    border-bottom: 2px solid rgba(30,30,30,0.4);
+    cursor: pointer;
+}
+#bands dt:hover {
+    background: linear-gradient(to right,  rgba(60,60,60,0.4) 0%, rgba(60,60,60,0.6) 50%, rgba(60,60,60,0.4) 100%);
+}
+#bands dd {
+    position: relative;
+    display: none;
+    background-color: rgba(98,141,194,0.5);
+    background: linear-gradient(to right,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0.5) 100%);
+    border-bottom: 2px solid rgba(30,30,30,0.2);
+    line-height: 3;
+}
+
+
 #access #map_canvas {
     display: block;
     margin: 0 auto;
     width: 100%;
     height: 300px;
     margin-top: 20px;
+}
+#access a {
+    text-decoration: underline;;    
+}
+#access a:hover {
+    opacity: 0.7;
 }
 
 #contents section#contact {

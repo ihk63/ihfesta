@@ -8,7 +8,7 @@
     }
     h1:after {
         width: 80px;
-        margin-top: 100px;
+        margin-top: 130px;
         background-size: contain;
     }
     nav {
@@ -32,9 +32,9 @@
     nav ul li a:hover {
         background-color: #3F3F3F;
     }
-    
+
     #top p {
-        margin-top: -120px;
+        margin-top: -140px;
         font-size: 1.5rem;
     }
     #contents h2 {
@@ -54,11 +54,16 @@
     #contents #contact {
         padding-bottom: 300px;
     }
-    
+
+    #bands dl {
+        width: 60%;
+    }
+
     #access #map_canvas {
         margin: 0 auto;
         width: 600px;
         height: 400px;
+        margin-top: 20px;
     }
     #contact .btn:before {
         width: 60px;
