@@ -34,7 +34,7 @@
     }
 
     #top p {
-        margin-top: -140px;
+        margin-top: -160px;
         font-size: 1.5rem;
     }
     #contents h2 {
@@ -55,6 +55,10 @@
         padding-bottom: 300px;
     }
 
+    #timeTable ol {
+        width: 60%;
+    }
+    
     #bands dl {
         width: 60%;
     }
