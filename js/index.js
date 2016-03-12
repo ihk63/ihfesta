@@ -44,6 +44,8 @@ $(function(){
     });
 
     $('#bands dt').on('click', function() {
-            $(this).parent().children('dd').slideToggle();
+        $(this).parent().children('dt.member').slideToggle();
+        $(this).parent().children('dt.comment').slideToggle();
+        $(this).parent().children('dd').slideToggle();
     });
 });

@@ -69,6 +69,14 @@
         height: 400px;
         margin-top: 20px;
     }
+    #access a.btn{
+        margin-top: 20px;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 1.2rem;
+    }
+
     #contact .btn:before {
         width: 60px;
         height: 60px;
@@ -80,7 +88,7 @@
         height: 60px;
         line-height: 60px;
         font-size: 1.5rem;
-}
+    }
     #contact .btn a {
         width: 100%;
         height: 100%;
